@@ -1,20 +1,21 @@
 <header>
-  <nav>
-    <ul>
-      <li><a routerLink="/">Pagina inicial</a></li>
-      <li><a routerLink="/universo-hp">Universo de Harry Potter</a></li>
-      <li><a routerLink="/outros-hp">Outros</a></li>
-      <li><a routerLink="/sobre-autora">Sobre a Autora</a></li>
-    </ul>
-  </nav>
+  <div class="content">
+    <div class="logo">Harry Potter</div>
+    <div class="nav-container">
+      <div class="nav-links">
+        <a routerLink="/">Página inicial</a>
+        <a routerLink="/universo-hp">Universo de Harry Potter</a>
+        <a routerLink="/outros-hp">Outros</a>
+        <a routerLink="/sobre-autora">Sobre a Autora</a>
+      </div>
+    </div>
+  </div>
 </header>
-
 <body>
   <div class="container">
     <router-outlet></router-outlet>
   </div>
 </body>
-
 <footer>
   <a href="https://github.com/lucasLmontes/Projeto-Angular" target="_blank" class="github-link">
     <img src="/images/logo-git.png" alt="GitHub">
